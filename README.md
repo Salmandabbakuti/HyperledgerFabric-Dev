@@ -34,3 +34,16 @@ sudo apt-get install npm
 
 curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
 
+
+```
+
+Build your Network
+
+```
+cd fabric-samples/first-network 
+sudo ./byfn.sh generate       #Generates Certificates for network
+sudo ./byfn.sh up             #Creates Genesis state and starts network
+
+sudo ./byfn.sh down           #Stps Network
+
+```
