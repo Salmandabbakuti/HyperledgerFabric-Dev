@@ -44,6 +44,6 @@ cd fabric-samples/first-network
 sudo ./byfn.sh generate       #Generates Certificates for network
 sudo ./byfn.sh up             #Creates Genesis state and starts network
 
-sudo ./byfn.sh down           #Stps Network
+sudo ./byfn.sh down           #Stops Network
 
 ```
