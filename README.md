@@ -47,3 +47,13 @@ sudo ./byfn.sh up             #Creates Genesis state and starts network
 sudo ./byfn.sh down           #Stops Network
 
 ```
+
+#### Creating Personalized Network
+
+##### Work Flow
+
+1. Configuring Network Organizations
+2. Certificates Generation
+3. Configuring Gensis-states and Channel Transactions
+4. Containerization of Orgs
+5. Bringing Up Network
