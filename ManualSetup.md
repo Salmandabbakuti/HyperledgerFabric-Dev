@@ -28,9 +28,14 @@ Export Your ```fabric-samles``` path
 export PATH=<replace this with your path>/bin:$PATH
 ```
 
-In your firstnetwork directory, 
+In your first-network directory, run below command to generate certificates
 
 ```
 ../bin/cryptogen generate --config=./crypto-config.yaml
+
 ```
+#### 3. Configuring Gensis-states and Channel Transactions
+
+```
+
 
