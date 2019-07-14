@@ -2,7 +2,7 @@
 
 ##### Work Flow
 
-1. Configuring Network Organizations
+1. Configuring Network Organizations (Pre-Configured ie. ```crypto-config.yaml``` and ```configtx.yaml```)
 
 2. Certificates Generation
 
@@ -15,3 +15,7 @@
 6. Chaincode Installation and Instantiations
 
 7.Invoking & Querying Chaincode on Peers
+
+ #### 1. Configuring Network Organizations
+ 
+ Pre-Configured ie. ```crypto-config.yaml``` and ```configtx.yaml``` 
