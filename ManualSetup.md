@@ -22,7 +22,7 @@
 
 #### 2. Certificates Generation
 
-Export Your ```fabric-samles``` path
+Export Your ```fabric-samples``` path
 
 ```
 export PATH=<replace this with your path>/bin:$PATH
@@ -35,7 +35,4 @@ In your first-network directory, run below command to generate certificates
 
 ```
 #### 3. Configuring Gensis-states and Channel Transactions
-
-```
-
 
