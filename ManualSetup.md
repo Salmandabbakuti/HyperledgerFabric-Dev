@@ -2,7 +2,7 @@
 
 ##### Work Flow
 
-1. Configuring Network Organizations (Pre-Configured ie. ```crypto-config.yaml``` and ```configtx.yaml```)
+1. Configuring Network Organizations 
 
 2. Certificates Generation
 
@@ -18,4 +18,19 @@
 
  #### 1. Configuring Network Organizations
  
- Pre-Configured ie. ```crypto-config.yaml``` and ```configtx.yaml``` 
+ Pre-Configured ie. ```crypto-config.yaml``` and ```configtx.yaml```
+
+#### 2. Certificates Generation
+
+Export Your ```fabric-samles``` path
+
+```
+export PATH=<replace this with your path>/bin:$PATH
+```
+
+In your firstnetwork directory, 
+
+```
+../bin/cryptogen generate --config=./crypto-config.yaml
+```
+
