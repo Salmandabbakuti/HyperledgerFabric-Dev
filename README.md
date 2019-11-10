@@ -14,6 +14,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce
+sudo apt install docker-compose
 
 ***Go-lang**
 
@@ -26,13 +27,13 @@ export GOPATH=$HOME/go  #choose your prferred work directory path
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 ***Node.js and Npm***
-
-sudo apt-get install nodejs
-sudo apt-get install npm
+ 
+ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - 
+ sudo apt-get install -y nodejs  #node v12.xx
 
 ***Fabric-samples Docker images***
 
-curl -sSL http://bit.ly/2ysbOFE | bash -s 1.3.0
+curl -sSL http://bit.ly/2ysbOFE | bash -s
 
 
 ```
